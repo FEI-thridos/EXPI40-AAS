@@ -1,0 +1,534 @@
+{
+  "semanticId": {
+    "keys": [
+      {
+        "type": "GlobalReference",
+        "local": true,
+        "value": "http://admin-shell.io/PlcCommunication/1/0",
+        "index": 0,
+        "idType": "IRI"
+      }
+    ]
+  },
+  "qualifiers": [],
+  "hasDataSpecification": [],
+  "identification": {
+    "idType": "IRI",
+    "id": "https://example.com/ids/sm/7294_4102_5032_0561"
+  },
+  "administration": {
+    "version": "1",
+    "revision": "0"
+  },
+  "idShort": "PlcCommunication",
+  "category": null,
+  "modelType": {
+    "name": "Submodel"
+  },
+  "kind": "Instance",
+  "submodelElements": [
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": true,
+            "value": "http://admin-shell.io/PlcCommunication/PlcNode",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "Cardinality",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToMany",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "PlcNode1",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "opc.tcp://192.168.88.236:48120",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": true,
+                "value": "http://admin-shell.io/PlcCommunication/PlcNode/Endpoint",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "opc.tcp://192.168.88.236:41500",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "PlcOpcUaServerEndpoint",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Enpoint of PLC's OPC UA server"
+            }
+          ]
+        },
+        {
+          "value": "ns=4;i=2",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": true,
+                "value": "http://admin-shell.io/PlcCommunication/PlcNode/NodeId",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "ns=2;i=12",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "PlcOpcUaServerNodeId",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "NodeId of node on PLC'S OPC UA server"
+            }
+          ]
+        },
+        {
+          "value": "OpcUaServerInterface",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": true,
+                "value": "http://admin-shell.io/PlcCommunication/PlcNode/PlcOpcUaInterface",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "OpcUaServerInterface",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "PlcOpcUaInterface",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Name of OPC UA communication server interface in PLC"
+            }
+          ]
+        },
+        {
+          "value": "Running",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": true,
+                "value": "http://admin-shell.io/PlcCommunication/PlcNode/AasProperty",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "Speed",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "AasProperty",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "ShortId of AAS Property in SM with SemanticId \"http://admin-shell.io/OperationalData\", that should be notified."
+            }
+          ]
+        },
+        {
+          "value": "dop3",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": true,
+                "value": "http://admin-shell.io/PlcCommunication/PlcNode/PlcTag",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "Conveyor1Running",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "PlcTag",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Name of PLC Tag"
+            }
+          ]
+        },
+        {
+          "value": "false",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": true,
+                "value": "http://admin-shell.io/PlcCommunication/PlcNode/IsSensor",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "True",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": null,
+          "idShort": "IsSensor",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "boolean"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Distinguishes whether communicated PLC Tag is type of PLC input (either digital or analog)."
+            }
+          ]
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "All information about communicated data from PLC Tag - PLC's OPC UA Server Endpoint, NodeId and ShortId of AAS Property in SM with SemanticId \"http://admin-shell.io/OperationalData\", that should be notified."
+        }
+      ]
+    }
+  ],
+  "descriptions": null
+}

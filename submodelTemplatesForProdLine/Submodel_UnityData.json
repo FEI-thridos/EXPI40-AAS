@@ -1,0 +1,806 @@
+{
+  "semanticId": {
+    "keys": [
+      {
+        "type": "GlobalReference",
+        "local": true,
+        "value": "http://admin-shell.io/UnityData/1/0",
+        "index": 0,
+        "idType": "IRI"
+      }
+    ]
+  },
+  "qualifiers": [],
+  "hasDataSpecification": [],
+  "identification": {
+    "idType": "IRI",
+    "id": "https://example.com/ids/sm/2220_6012_5032_9263"
+  },
+  "administration": {
+    "version": "1",
+    "revision": "0"
+  },
+  "idShort": "UnityData",
+  "category": null,
+  "modelType": {
+    "name": "Submodel"
+  },
+  "kind": "Instance",
+  "submodelElements": [
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": true,
+            "value": "http://admin-shell.io/UnityData/Position",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "Cardinality",
+          "valueType": "",
+          "valueId": null,
+          "value": "One",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "Position",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "0",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": true,
+                "value": "http://admin-shell.io/UnityData/Position/X",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "3",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "PositionX",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "double"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Position of item in Unity in X axis"
+            }
+          ]
+        },
+        {
+          "value": "0",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": true,
+                "value": "http://admin-shell.io/UnityData/Position/Y",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "3",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "PositionY",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "double"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Position of item in Unity in Y axis"
+            }
+          ]
+        },
+        {
+          "value": "0",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": true,
+                "value": "http://admin-shell.io/UnityData/Position/Z",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "3",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "PositionZ",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "double"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Position of item in Unity in Z axis"
+            }
+          ]
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Collection of properties describing position of item in Unity"
+        }
+      ]
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": true,
+            "value": "http://admin-shell.io/UnityData/Rotation",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "Cardinality",
+          "valueType": "",
+          "valueId": null,
+          "value": "One",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "Rotation",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "0",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": true,
+                "value": "http://admin-shell.io/UnityData/Rotation/X",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "0",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "RotationX",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "double"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Rotation of item in Unity around X axis"
+            }
+          ]
+        },
+        {
+          "value": "-90",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": true,
+                "value": "http://admin-shell.io/UnityData/Rotation/Y",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "90",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "RotationY",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "double"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Rotation of item in Unity around Y axis"
+            }
+          ]
+        },
+        {
+          "value": "0",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": true,
+                "value": "http://admin-shell.io/UnityData/Rotation/Z",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "0",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "RotationZ",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "double"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Rotation of item in Unity in Z axis"
+            }
+          ]
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Collection of properties describing rotation of item in Unity"
+        }
+      ]
+    },
+    {
+      "mimeType": "text/plain",
+      "value": "/aasx/files/ConveyorLib.dll",
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": true,
+            "value": "http://admin-shell.io/UnityData/Script",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "Cardinality",
+          "valueType": "",
+          "valueId": null,
+          "value": "One",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        },
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "ExampleValue",
+          "valueType": "",
+          "valueId": null,
+          "value": "/aasx/files/ConveyorLib.dll",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "Script",
+      "category": "PARAMETER",
+      "modelType": {
+        "name": "File"
+      },
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Script (.dll) with methods for item in Unity"
+        }
+      ]
+    },
+    {
+      "mimeType": "text/plain",
+      "value": "/aasx/files/conveyor.unity3d",
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": true,
+            "value": "http://admin-shell.io/UnityData/AssetBundle",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "Cardinality",
+          "valueType": "",
+          "valueId": null,
+          "value": "One",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        },
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "ExampleValue",
+          "valueType": "",
+          "valueId": null,
+          "value": "/aasx/files/conveyor.unity3d",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "AssetBundle",
+      "category": "PARAMETER",
+      "modelType": {
+        "name": "File"
+      },
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "AssetBundle (.unity3d) of item in Unity"
+        }
+      ]
+    },
+    {
+      "value": "false",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": true,
+            "value": "http://admin-shell.io/UnityData/IsOnlyVirtual",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "Cardinality",
+          "valueType": "",
+          "valueId": null,
+          "value": "One",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        },
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "ExampleValue",
+          "valueType": "",
+          "valueId": null,
+          "value": "false",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "IsOnlyVirtual",
+      "category": "PARAMETER",
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": "boolean"
+        }
+      },
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Distinguishes whether the object is only virtual or has also real counterpart."
+        }
+      ]
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "en",
+      "text": "Submodel template for Unity Data"
+    }
+  ]
+}

@@ -1,0 +1,750 @@
+{
+  "semanticId": {
+    "keys": [
+      {
+        "type": "ConceptDescription",
+        "local": true,
+        "value": "https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+        "index": 0,
+        "idType": "IRI"
+      }
+    ]
+  },
+  "qualifiers": [],
+  "hasDataSpecification": [],
+  "identification": {
+    "idType": "IRI",
+    "id": "www.example.com/ids/sm/1225_9020_5022_1974"
+  },
+  "administration": {
+    "version": "2",
+    "revision": "0"
+  },
+  "idShort": "Nameplate",
+  "category": null,
+  "modelType": {
+    "name": "Submodel"
+  },
+  "kind": "Instance",
+  "submodelElements": [
+    {
+      "value": "https://www.fischertechnik.de/en/products/industry-and-universities/training-models/50464-conveyor-belt-24v",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "0173-1#02-AAY811#001",
+            "index": 0,
+            "idType": "IRDI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "One",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "URIOfTheProduct",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": "string"
+        }
+      },
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Note: see also [IRDI] 0112/2///61987#ABN590#001 URI of product instance "
+        }
+      ]
+    },
+    {
+      "value": {
+        "langString": [
+          {
+            "language": "en",
+            "text": "Fischertechnik"
+          }
+        ]
+      },
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "0173-1#02-AAO677#002",
+            "index": 0,
+            "idType": "IRDI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "One",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "ManufacturerName",
+      "category": null,
+      "modelType": {
+        "name": "MultiLanguageProperty"
+      },
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Note: see also [IRDI] 0112/2///61987#ABA565#007 manufacturer Note: mandatory property according to EU Machine Directive 2006/42/EC. "
+        }
+      ]
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": true,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "One",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "ContactInformation",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": {
+            "langString": [
+              {
+                "language": "en",
+                "text": "DE"
+              }
+            ]
+          },
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO134#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "NationalCode",
+          "category": null,
+          "modelType": {
+            "name": "MultiLanguageProperty"
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the user’s choice."
+            }
+          ]
+        },
+        {
+          "value": "english, german",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/Language",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToMany",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Language",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Note: language codes defined accord. to ISO 639-1. Note: as per ECLASS definition, Expression and representation of thoughts, information, feelings, ideas through characters."
+            }
+          ]
+        },
+        {
+          "value": "CET",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/TimeZone",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "TimeZone",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Note: notation accord. to ISO 8601 Note: for time in UTC the zone designator “Z” is to be used"
+            }
+          ]
+        },
+        {
+          "value": {
+            "langString": [
+              {
+                "language": "en",
+                "text": "Waldachtal"
+              }
+            ]
+          },
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO132#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "CityTown",
+          "category": null,
+          "modelType": {
+            "name": "MultiLanguageProperty"
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Note: see also [IRDI] 0112/2///61987#ABA129#001 city/town. Mandatory property according to EU Machine Directive 2006/42/EC."
+            }
+          ]
+        },
+        {
+          "value": {
+            "langString": [
+              {
+                "language": "en",
+                "text": "Fischertechnik"
+              }
+            ]
+          },
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAW001#001",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Company",
+          "category": null,
+          "modelType": {
+            "name": "MultiLanguageProperty"
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": {
+            "langString": [
+              {
+                "language": "en",
+                "text": "72178"
+              }
+            ]
+          },
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO129#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Zipcode",
+          "category": null,
+          "modelType": {
+            "name": "MultiLanguageProperty"
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the user’s choice."
+            }
+          ]
+        },
+        {
+          "value": {
+            "langString": [
+              {
+                "language": "en",
+                "text": "+49 7443 124369"
+              }
+            ]
+          },
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO136#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "TelephoneNumber",
+          "category": null,
+          "modelType": {
+            "name": "MultiLanguageProperty"
+          },
+          "kind": "Instance",
+          "descriptions": null
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "The SMC “ContactInformation” contains information on how to contact the manufacturer or an authorised service provider, e.g. when a maintenance service is required. Note: physical address is a mandatory property according to EU Machine Directive 2006/42/EC"
+        }
+      ]
+    },
+    {
+      "value": {
+        "langString": [
+          {
+            "language": "en",
+            "text": "50464"
+          }
+        ]
+      },
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "0173-1#02-AAO227#002",
+            "index": 0,
+            "idType": "IRDI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToOne",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "OrderCodeOfManufacturer",
+      "category": null,
+      "modelType": {
+        "name": "MultiLanguageProperty"
+      },
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Note: see also [IRDI] 0112/2///61987#ABA950#006 order code of product Note: Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the user’s choice."
+        }
+      ]
+    },
+    {
+      "value": {
+        "langString": [
+          {
+            "language": "en",
+            "text": "50464"
+          }
+        ]
+      },
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "0173-1#02-AAO676#003",
+            "index": 0,
+            "idType": "IRDI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToOne",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "ProductArticleNumberOfManufacturer",
+      "category": null,
+      "modelType": {
+        "name": "MultiLanguageProperty"
+      },
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Note: see also [IRDI] 0112/2///61987#ABA581#006 article number Note: Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the user’s choice."
+        }
+      ]
+    },
+    {
+      "value": "TODO",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "0173-1#02-AAM556#002",
+            "index": 0,
+            "idType": "IRDI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToOne",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "SerialNumber",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": "string"
+        }
+      },
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Note: see also [IRDI] 0112/2///61987#ABA951#007 serial number "
+        }
+      ]
+    },
+    {
+      "value": "2012",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "0173-1#02-AAP906#001",
+            "index": 0,
+            "idType": "IRDI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "One",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "YearOfConstruction",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": "integer"
+        }
+      },
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Note: mandatory property according to EU Machine Directive 2006/42/EC. "
+        }
+      ]
+    },
+    {
+      "value": "Germany",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "0173-1#02-AAO259#004",
+            "index": 0,
+            "idType": "IRDI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToOne",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "CountryOfOrigin",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": "string"
+        }
+      },
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Note: see also [IRDI] 0112/2///61360_4#ADA034#001 country of origin Note: Country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes "
+        }
+      ]
+    },
+    {
+      "mimeType": "image/png",
+      "value": "/aasx/files/2560px-Fischertechnik_logo.svg.png",
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "https://admin-shell.io/zvei/nameplate/2/0/Nameplate/CompanyLogo ",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToOne",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "CompanyLogo",
+      "category": null,
+      "modelType": {
+        "name": "File"
+      },
+      "kind": "Instance",
+      "descriptions": null
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "en",
+      "text": "Contains the nameplate information attached to the product"
+    }
+  ]
+}

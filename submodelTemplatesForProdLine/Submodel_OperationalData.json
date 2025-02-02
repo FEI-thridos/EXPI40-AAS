@@ -1,0 +1,277 @@
+{
+  "semanticId": {
+    "keys": [
+      {
+        "type": "GlobalReference",
+        "local": true,
+        "value": "http://admin-shell.io/OperationalData/1/0",
+        "index": 0,
+        "idType": "IRI"
+      }
+    ]
+  },
+  "qualifiers": [],
+  "hasDataSpecification": [],
+  "identification": {
+    "idType": "IRI",
+    "id": "https://example.com/ids/sm/1291_4102_5032_2337"
+  },
+  "administration": {
+    "version": "1",
+    "revision": "0"
+  },
+  "idShort": "OperationalData",
+  "category": null,
+  "modelType": {
+    "name": "Submodel"
+  },
+  "kind": "Instance",
+  "submodelElements": [
+    {
+      "value": "false",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": true,
+            "value": "http://admin-shell.io/OperationalData/Running",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "Cardinality",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToMany",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        },
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "ExampleValue",
+          "valueType": "",
+          "valueId": null,
+          "value": "true",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "Running",
+      "category": "VARIABLE",
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": "boolean"
+        }
+      },
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Distinguishes whther the Conveyor is in run mode."
+        }
+      ]
+    },
+    {
+      "value": "50",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": true,
+            "value": "http://admin-shell.io/OperationalData/Speed",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "Cardinality",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToMany",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        },
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "ExampleValue",
+          "valueType": "",
+          "valueId": null,
+          "value": "Speed= 20 [m/s]",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": null
+        }
+      ],
+      "idShort": "Speed",
+      "category": "VARIABLE",
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": "double"
+        }
+      },
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Conveyor speed"
+        }
+      ]
+    },
+    {
+      "value": "x",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": true,
+            "value": "http://admin-shell.io/OperationalData/Direction",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "Cardinality",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToMany",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        },
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "ExampleValue",
+          "valueType": "",
+          "valueId": null,
+          "value": "x",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "Direction",
+      "category": "VARIABLE",
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": "string"
+        }
+      },
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Direction of product on conveyor belt"
+        }
+      ]
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "en",
+      "text": "Submodel template for Operational Data"
+    }
+  ]
+}

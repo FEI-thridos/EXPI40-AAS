@@ -1,0 +1,1024 @@
+{
+  "semanticId": {
+    "keys": [
+      {
+        "type": "Submodel",
+        "local": false,
+        "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2",
+        "index": 0,
+        "idType": "IRI"
+      }
+    ]
+  },
+  "qualifiers": [],
+  "hasDataSpecification": [],
+  "identification": {
+    "idType": "IRI",
+    "id": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+  },
+  "administration": {
+    "version": "1",
+    "revision": "2"
+  },
+  "idShort": "TechnicalData",
+  "category": null,
+  "modelType": {
+    "name": "Submodel"
+  },
+  "kind": "Instance",
+  "submodelElements": [
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": false,
+            "value": "https://admin-shell.io/ZVEI/TechnicalData/GeneralInformation/1/1",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "Cardinality",
+          "valueType": "",
+          "valueId": null,
+          "value": "One",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "GeneralInformation",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "Fischertechnik",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "0173-1#02-AAO677#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "Example Company",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ManufacturerName",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Legally valid designation of the natural or judicial body which is directly responsible for the design, production, packaging and labeling of a product in respect to its being brought into the market."
+            }
+          ]
+        },
+        {
+          "mimeType": "image/png",
+          "value": "/aasx/files/2560px-Fischertechnik_logo.svg.png",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/ZVEI/TechnicalData/ManufacturerLogo/1/1",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ManufacturerLogo",
+          "category": null,
+          "modelType": {
+            "name": "File"
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Imagefile for logo of manufacturer provided in common format (.png, .jpg)."
+            }
+          ]
+        },
+        {
+          "value": "50464",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "0173-1#02-AAO676#003",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "A123-456",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ManufacturerArticleNumber",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "unique product identifier of the manufacturer "
+            }
+          ]
+        },
+        {
+          "value": "50464",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "0173-1#02-AAO227#002",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "EEA-EX-200-S/47-Q3",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ManufacturerOrderCode",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "By manufactures issued unique combination of numbers and letters used to identify the device for ordering"
+            }
+          ]
+        },
+        {
+          "mimeType": "image/png",
+          "value": "/aasx/files/Transportband-24V_Freigestellt-3-6-1-200x200.png",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/ZVEI/TechnicalData/ProductImage/1/1",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToMany",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ProductImage",
+          "category": null,
+          "modelType": {
+            "name": "File"
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Image file for associated product provided in common format (.png, .jpg)."
+            }
+          ]
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "General information, for example ordering and manufacturer information."
+        }
+      ]
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": false,
+            "value": "https://admin-shell.io/ZVEI/TechnicalData/TechnicalProperties/1/1",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "Cardinality",
+          "valueType": "",
+          "valueId": null,
+          "value": "One",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "TechnicalProperties",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "0.67",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "0173-1#02-BAB576#007",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "0.5 [kg]",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Weight",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "double"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Weight of Asset"
+            }
+          ]
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "0173-1#02-AAG004#005",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Dimensions",
+          "category": null,
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "0.345",
+              "valueId": null,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "0173-1#02-BAI969#006",
+                    "index": 0,
+                    "idType": "IRDI"
+                  }
+                ]
+              },
+              "constraints": [
+                {
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "local": false,
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "type": "Cardinality",
+                  "valueType": "",
+                  "valueId": null,
+                  "value": "One",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                },
+                {
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "local": false,
+                        "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "type": "ExampleValue",
+                  "valueType": "",
+                  "valueId": null,
+                  "value": "1.6 [m]",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                }
+              ],
+              "hasDataSpecification": [],
+              "idShort": "Length",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "double"
+                }
+              },
+              "kind": "Instance",
+              "descriptions": [
+                {
+                  "language": "en",
+                  "text": "Length of Asset"
+                }
+              ]
+            },
+            {
+              "value": "0.1",
+              "valueId": null,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "0173-1#02-BAF019#004",
+                    "index": 0,
+                    "idType": "IRDI"
+                  }
+                ]
+              },
+              "constraints": [
+                {
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "local": false,
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "type": "Cardinality",
+                  "valueType": "",
+                  "valueId": null,
+                  "value": "One",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                },
+                {
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "local": false,
+                        "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "type": "ExampleValue",
+                  "valueType": "",
+                  "valueId": null,
+                  "value": "1.6 [m]",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                }
+              ],
+              "hasDataSpecification": [],
+              "idShort": "Width",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "double"
+                }
+              },
+              "kind": "Instance",
+              "descriptions": [
+                {
+                  "language": "en",
+                  "text": "Width of Asset"
+                }
+              ]
+            },
+            {
+              "value": "0.24",
+              "valueId": null,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "0173-1#02-AAO034#004",
+                    "index": 0,
+                    "idType": "IRDI"
+                  }
+                ]
+              },
+              "constraints": [
+                {
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "local": false,
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "type": "Cardinality",
+                  "valueType": "",
+                  "valueId": null,
+                  "value": "One",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                },
+                {
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "local": false,
+                        "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "type": "ExampleValue",
+                  "valueType": "",
+                  "valueId": null,
+                  "value": "1.6 [m]",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                }
+              ],
+              "hasDataSpecification": [],
+              "idShort": "Height",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "double"
+                }
+              },
+              "kind": "Instance",
+              "descriptions": [
+                {
+                  "language": "en",
+                  "text": "Height of Asset"
+                }
+              ]
+            }
+          ],
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Dimensions of Asset"
+            }
+          ]
+        },
+        {
+          "value": "24 [Vdc]",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": true,
+                "value": "http://admin-shell.io/TechnicalData/TechnicalProperties/PowerSupply",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "Width@en= 24 [Vdc]",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "PowerSupply",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Power Supply for Conveyor"
+            }
+          ]
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Individual characteristics that describe the product and its technical properties."
+        }
+      ]
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": false,
+            "value": "https://admin-shell.io/ZVEI/TechnicalData/FurtherInformation/1/1",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "type": "Cardinality",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToOne",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "FurtherInformation",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "2023-06-11",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/ZVEI/TechnicalData/ManufacturerOrderCode/1/1",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "Cardinality",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "type": "ExampleValue",
+              "valueType": "",
+              "valueId": null,
+              "value": "5/28/2021",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ValidDate",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "date"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Denotes a date on which the data specified in the Submodel was valid from for the associated asset."
+            }
+          ]
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Further information on the product, the validity of the information provided and this data record."
+        }
+      ]
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "en",
+      "text": "Submodel containing techical data of the asset and associated product classificatons."
+    },
+    {
+      "language": "de",
+      "text": "Teilmodell, das die technischen Daten der Anlage und die zugehörigen Produktklassifizierungen enthält."
+    }
+  ]
+}
